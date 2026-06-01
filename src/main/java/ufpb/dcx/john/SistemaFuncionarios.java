@@ -1,5 +1,7 @@
 package ufpb.dcx.john;
 
+import java.util.List;
+
 public interface SistemaFuncionarios {
     public void cadastrarFuncionario(Funcionario funcionario)
             throws FuncionarioJaExisteException;
